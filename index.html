@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Ivy's Portfolio</title>
+    <link rel="stylesheet" href="styles/normalize/normalize.css">
+    <link rel="stylesheet" href="vendor/icons.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/module.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+     <!--HANDLEBARS TEMPLATE 
+    <script id="entry-template" type="text/x-handlebars-template">
+      <section id="project_intro">
+          LEFT COLUMN 
+        <div class="total_presentation">
+          Completed in<span class="date">{{this.date}}</span>
+          <span><h2 class="project_title">{{this.title}}</h2></span>
+          <ul id="specs">
+            <li class="detail" id="goal">{{this.goal}}</li>
+            <li class="detail" id="type">{{this.type}}</li>
+            <li class="detail" id="technology">{{this.technology}}</li>
+          </ul>
+      <a class="launch_link" href="{{this.link}}">Launch Project</a>
+      </div>
+    RIGHT COLUMN 
+    <div id="project_images">
+      <img class="screenshot" src="{{this.screenshot}}">
+    </div>
+      </section>
+    </script>-->
+</head>
+ <body>
+    <header class="site-header">
+      <section class="heading-group-h1">
+        <h1>Ivy Patton | Producer | Strategist</h1> 
+      </section>
+      <nav class="main-nav">
+        <div class='icon-menu'></div>
+        <ul>
+          <li class="tab" data-tab-content="home"><a href="#"class="icon-minus"> Home</a></li>
+          <li class="tab" data-tab-content="about"><a href="#" class="icon-plus"> Story</a></li>
+          <li class="tab" data-tab-content="work"><a href="#" class="icon-plus"> Work</a></li>
+          <li class="tab"><a href="https://github.com/lilaivy" class="icon-github"> Github</a></li>
+          <li class="tab"><a href="https://www.linkedin.com/in/ivy-patton-655b2820/" class="icon-link"> LinkedIn</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--<div id="hello_left_column" class="container clearfix">
+      <div class="intro right hello">
+        <div id="hello_text"
+        <h1 class="title">
+        <span class="work_title">HE</span><br>
+        <span class="work_title">LLO<class="period">.</span>
+        </h1>
+        </div>
+      </div>
+      <div id="hello_right_column"class="right_column_container">
+        <h2 class="right_column_title"></h2>
+      </div> 
+    </div>-->
+
+    <div id="home" class="container clearfix">
+      <div class="intro">
+        <h1 class="title">
+        <span class="work_title slideExpandUp">HE</span><br>
+        <span class="work_title LLO">LLO<class="period">.</span>
+        </h1>
+      </div>
+      <div class="right_column_container">
+        <h2 id="bio_title"class="right_column_title">My name is Ivy.<br> I'm a producer.<br>I also code web sites.</h2>
+          
+      </div> 
+    </div>
+    <div id="about" class="container clearfix">
+      <div class="intro">
+        <h1 class="title">
+        <span class="work_title">STO</span><br>
+        <span class="work_title">RY<class="period">.</span>
+        </h1>
+        <img scr = "vendor/story.jpeg">
+      </div>
+      <div class="right_column_container">
+        <h2 id="story_prongs"class="right_column_title">Southern born.<br>NYC bred.<br>PDX @ heart.</h2>
+        <p class="right_column_text"> Philosophy and Literature were my my majors. Film was my minor. After graduation I earned my PhD in RocknRoll from Warner Bros Records where I specialized in promotions and A&R. Before that I wrote TV trivia questions for Neilsen. And before that I was an intern at Late Show with David Letterman.<br> I also taught writing to kids with Dyslexia in Oregon...<br><span class="another_story">but that's another story.<span></p>
+      </div> 
+    </div>
+    <div id="work" class="container clearfix">
+      <div class="intro">
+        <h1 class="title">
+        <span class="work_title">WO</span><br>
+        <span class="work_title">RK<class="period">.</span>
+        </h1>
+      </div>
+      <div class="right_column_container">
+        <h2 class="right_column_title">A  Professional Bio:<br>The Highlights Reel</h2>
+      </div> 
+    </div>
+
+<!-- if you want to hide the projects, add class container to it -->
+<section id="render_template"></section>
+
+<footer><p class = "contact">Wanna talk music, drink coffee, tell stories or design things? <a class = "link" href = "mailto:lilaivy@gmail.com">Write to me!</a></p>
+<!--<div class = "link">
+        <a class = "link" href = "index.html">Take the A-Z of Ivy Quiz</a>  </footer>-->
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
+  <script src="app.js"></script>
+   <script src="game.js"></script>
+  <script>Projects.fetchAll();</script>
+</body>
+</html>
+ 
+
+
+ <!--Associate Producer: <em>Running Out of Angels<em><br>Project Manager:<em>K12<em>.<br>A&R:<em>Warner Bros. Records<em><br>Promotions:<em>Reprise Records<em>-->

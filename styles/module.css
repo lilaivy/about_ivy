@@ -1,0 +1,156 @@
+.site-header {
+  background:rgb(225, 225, 225);
+}
+
+.heading-group-h1 {
+  float: left;
+  padding: 0 0 .2em 1em;
+}
+
+.icon-menu {
+  font-size:2em;
+  text-align: right;
+  padding-right: 1em;
+  
+}
+
+.main-nav {
+  padding: 0.1em;
+}
+
+.main-nav ul {
+  display: none;
+  padding: 0;
+  list-style: none;
+  
+}
+
+.main-nav:hover ul {
+  display: block;
+}
+
+.main-nav li {
+  margin-right: .4em;
+  font-size: 1.5em;
+  padding: .5em .2em;
+ 
+}
+
+/*WORK & PROJECTS INTRO STYLE*/
+
+.intro, .total_presentation{
+  background-color: rgb(248, 248, 248);
+  height: 600px;
+  width: 470px;
+}
+
+ .title {
+  padding-top: 150px;
+}
+
+
+.work_title{
+color:rgb(28,27,32);
+font-size:75px;
+font-weight: bolder;
+
+}
+.slideExpandUp{
+	animation-name: slideExpandUp;
+	-webkit-animation-name: slideExpandUp;	
+
+	animation-duration: 1.6s;	
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease -out;
+
+	visibility: visible !important;	
+}
+
+
+/*INDIVIDUAL PROJECTS STYLE*/
+.project_title{
+text-align:center;
+}
+
+/*.period{
+color:rgb(216, 216, 216);
+font-size:75px;
+}*/
+
+.right_column_container {
+  background-color: rgb(28,27,32);
+  height: 600px;
+  width: 470px;
+}
+
+.right_column_title {
+  color:rgb(248, 248, 248);
+  font-weight: bolder;
+  font-size: 45px;
+   line-height: 100px;
+  padding-top: 100px;
+  
+  
+}
+
+#story_prongs{
+  padding-top: 35px;
+  margin-bottom: 0px;
+}
+
+ .right_column_text{
+  line-height: 25px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin: 0px;
+  font-size: 17px;
+  /*width: 400px;*/
+}
+
+.another_story{
+ padding-top: 25px;
+}
+
+
+#project_images{
+   background-color:rgb(65,74,107);
+   height: 600px;
+   width: 470px;
+}
+
+.screenshot{
+  height: 480px;
+  width: 380px;
+  padding-bottom: 50px;
+}
+
+
+@media only screen and (min-width:640px){
+  .icon-menu{
+    display:none;
+  }
+
+  .main-nav{
+    clear:both;
+
+  }
+
+  .main-nav ul {
+    display:block;
+   
+  }
+  .main-nav li {
+    display:inline-block;
+    border: none;
+    padding-right: 10%;
+    
+  }
+
+  .contact{
+    color: rgb(28,27,32);
+    text-align: center;
+  }
+}
+

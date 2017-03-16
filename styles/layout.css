@@ -1,0 +1,32 @@
+.container {
+    background-color:rgb(225, 88, 81);
+     padding-left: 300px;
+}
+
+.intro {
+    float:left;
+}
+.right_column_container {
+   float:left;
+  
+}
+.total_presentation{
+    float:left;
+}
+#project_images{
+    float:left;
+
+}
+
+#project_intro{
+    clear: both;
+    display:block;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
