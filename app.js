@@ -1,4 +1,4 @@
-// 'use strict';
+'use strict';
 
 // function Projects (ivy_projects) {
 //   this.title = ivy_projects.title;
@@ -23,7 +23,7 @@ function mainNavHandler() {
   $('.main-nav').on('click', '.tab', function() {
     $('.container').hide();
     var clickedId = $(this).attr('data-tab-content');
-    $('#' + clickedId).fadeIn(2000);
+    $('#' + clickedId).fadeIn(1000);
   });
   $('.main-nav .tab:first').click();
 }
