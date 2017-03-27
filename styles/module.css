@@ -10,6 +10,7 @@
 .hamburger-menu{
   text-align: right;
   padding-right: 5em;
+
   
 }
 
@@ -52,11 +53,14 @@
 color:rgb(28,27,32);
 font-size:75px;
 font-weight: bolder;
+display: inline-block;
 
 }
 
 .bottom_row{
-  padding-left: 70px;
+  padding-left: 150px;
+  width: 150px;
+  /*position:relative;  */
 }
 
 /*.slideExpandUp{
@@ -78,10 +82,30 @@ font-weight: bolder;
 text-align:center;
 }
 
-.period{
-color:rgb(216, 216, 216);
-font-size:100px;
+@keyframes jump {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
+
+/*.period{
+color:rgb(216, 216, 216);
+font-size:800%;
+float: right;
+padding-right: 60px;
+  animation-duration: 1.5s;
+  animation-name: jump;
+
+
+}*/
 
 .right_column_container {
   background-color: rgb(28,27,32);
@@ -110,7 +134,7 @@ font-size:100px;
   padding-right: 22px;
   margin: 0px;
   font-size: 17px;
-  /*width: 400px;*/
+  width: 400px;
 }
 
 .another_story{
@@ -124,12 +148,6 @@ font-size:100px;
    width: 470px;
 }
 
-/*.screenshot{
-  height: 480px;
-  width: 380px;
-  padding-bottom: 50px;
-}*/
-
 .contact{
     color: rgb(28,27,32);
     text-align: center;
@@ -138,7 +156,7 @@ font-size:100px;
 
 @media only screen and (min-width:640px){
   .container {
-     padding-left: 400px;
+     padding-left: 200px;
   }
 
   .hamburger-menu{
@@ -158,6 +176,7 @@ font-size:100px;
     display:inline-block;
     border: none;
     padding-right: 10%;
+    font-weight: lighter;
     
   }
 
