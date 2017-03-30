@@ -103,14 +103,13 @@ float: right;
 padding-right: 60px;
   animation-duration: 1.5s;
   animation-name: jump;
-
-
 }*/
 
 .right_column_container {
   background-color: rgb(28,27,32);
   height: 600px;
   width: 470px;
+
 }
 
 .right_column_title {
@@ -119,6 +118,8 @@ padding-right: 60px;
   font-size: 45px;
    line-height: 100px;
   padding-top: 100px;
+  text-align: left;
+  padding-left: 25px;
   
   
 }
@@ -135,6 +136,9 @@ padding-right: 60px;
   margin: 0px;
   font-size: 17px;
   width: 400px;
+  text-align: left;
+  padding-left: 25px;
+  letter-spacing: 1px;
 }
 
 .another_story{
