@@ -112,6 +112,27 @@ padding-right: 60px;
 
 }
 
+.good_cents_title{
+  font-size:70px;
+  font-weight: lighter;
+  display: inline-block;
+  color:rgb(248, 248, 248);
+  
+
+}
+
+.good_cents_description_container{
+  background-color: rgb(28,27,32);
+  height: 600px;
+  width: 470px;
+  color:rgb(248, 248, 248);
+  
+  
+}
+.good_cents_screenshot_container{
+  background-color: rgb(248, 248, 248);
+}
+
 .right_column_title {
   color:rgb(248, 248, 248);
   font-weight: bolder;
@@ -184,6 +205,40 @@ line-height: 75px;
     font-weight: lighter;
     
   }
+  .underline {
+    text-decoration: underline aqua;
+  }
+
+  .underline:hover{
+    font-size: 150%;
+  }
+
+.launch {
+font-size: 16px;
+}
+
+.launch:hover{
+  text-decoration: underline aqua;
+  font-size: 30px;
+   
+}
+
+.project_ul{
+  padding-top: 5%;
+}
+
+.project_li{
+  font-size: 20px;
+  text-align: left;
+}
+
+.scroll_down{
+  font-size: 35px;
+}
+
+.scroll_down:hover{
+  font-size: 100px;
+}
 
 }
 
