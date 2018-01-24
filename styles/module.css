@@ -36,6 +36,10 @@
  
 }
 
+.underline:hover{
+  text-decoration: underline aqua;
+}
+
 /*WORK & PROJECTS INTRO STYLE*/
 
 .intro, .total_presentation{
@@ -146,8 +150,9 @@ padding-right: 60px;
 }
 
 #story_prongs{
-  padding-top: 35px;
+  padding-top: 2px;
   margin-bottom: 0px;
+  font-size: 50px;;
 }
 
  .right_column_text{
@@ -164,7 +169,7 @@ padding-right: 60px;
 }
 
 .another_story{
-line-height: 75px;
+line-height: 45px;
 }
 
 
@@ -205,11 +210,11 @@ line-height: 75px;
     font-weight: lighter;
     
   }
-  .underline {
+  .write {
     text-decoration: underline aqua;
   }
 
-  .underline:hover{
+  .write:hover{
     font-size: 150%;
   }
 
@@ -230,6 +235,7 @@ font-size: 16px;
 .project_li{
   font-size: 20px;
   text-align: left;
+  line-height: 40px;
 }
 
 .scroll_down{
@@ -238,6 +244,10 @@ font-size: 16px;
 
 .scroll_down:hover{
   font-size: 100px;
+}
+
+.story_image{
+  margin-bottom: 500px;
 }
 
 }
