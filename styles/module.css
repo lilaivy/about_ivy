@@ -246,6 +246,10 @@ font-size: 16px;
   font-size: 100px;
 }
 
+.nwea_container{
+  width:470px;
+}
+
 .nwea_image{
   max-width: 75%;
   padding-top: 95px;
