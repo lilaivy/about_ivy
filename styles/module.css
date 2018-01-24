@@ -246,8 +246,9 @@ font-size: 16px;
   font-size: 100px;
 }
 
-.story_image{
-  margin-bottom: 500px;
+.nwea_image{
+  max-width: 85%;
+  padding-top: 90px;
 }
 
 }
