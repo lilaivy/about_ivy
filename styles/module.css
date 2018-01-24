@@ -248,11 +248,23 @@ font-size: 16px;
 
 .nwea_container{
   width:470px;
+  background-color: rgb(248, 248, 248);
 }
 
 .nwea_image{
-  max-width: 75%;
-  padding-top: 95px;
+  max-width: 100%;
+  padding-top: 50px;
+}
+
+.game_screenshot_container{
+  background-color: rgb(28,27,32);
+  
+}
+
+img.resize{
+  max-width:85%;
+  max-height:85%;
+  padding-top: 45px;
 }
 
 }

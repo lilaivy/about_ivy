@@ -21,8 +21,8 @@ a, a:link, a:active {
   color: rgb(28,27,32);
 }
 
-a:hover, a:focus {
-  color: #777;
+a:visited {
+  color: #AAA;
 }
 
 a:visited {
